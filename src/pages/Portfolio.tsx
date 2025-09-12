@@ -395,7 +395,7 @@ const Portfolio = () => {
                   <div className="flex items-center gap-2">
                     <SkillBadge variant="primary">AI Platform</SkillBadge>
                   </div>
-                  <h3 className="text-xl font-semibold text-foreground">AgentMons</h3>
+                  <h3 className="text-xl font-semibold text-foreground">AI Agent Monitoring Platform</h3>
                   <p className="text-sm text-primary font-medium">AI Agent Monitoring Platform</p>
                   <div className="flex items-center gap-4 text-xs text-muted-foreground">
                     <div className="flex items-center gap-1">
@@ -421,7 +421,11 @@ const Portfolio = () => {
                 
                 <div className="flex gap-2 pt-2">
                  
-                  <Button size="sm" variant="outline">
+                  <Button 
+                    size="sm" 
+                    variant="outline"
+                    onClick={() => window.open('https://drive.google.com/drive/folders/1VBV7iXrDmAV9LxAY-z6M00tJ3H4FKC0G?usp=sharing', '_blank')}
+                  >
                     <ExternalLink className="w-3 h-3 mr-1" />
                     Demo
                   </Button>
@@ -494,11 +498,12 @@ const Portfolio = () => {
                 </div>
                 
                 <div className="flex gap-2 pt-2">
-                 
                   <Button size="sm" variant="outline">
                     <ExternalLink className="w-3 h-3 mr-1" />
                     Demo
                   </Button>
+                  
+                  
                 </div>
               </div>
 
@@ -531,9 +536,13 @@ const Portfolio = () => {
                 
                 <div className="flex gap-2 pt-2">
                   
-                  <Button size="sm" variant="outline">
+                 <Button 
+                    size="sm" 
+                    variant="outline"
+                    onClick={() => window.open('https://github.com/prachidave13/NeuroDrive', '_blank')}
+                  >
                     <ExternalLink className="w-3 h-3 mr-1" />
-                    Demo
+                    Code
                   </Button>
                 </div>
               </div>
@@ -567,14 +576,15 @@ const Portfolio = () => {
                 </div>
                 
                 <div className="flex gap-2 pt-2">
-                  <Button size="sm" variant="outline">
-                    <Code className="w-3 h-3 mr-1" />
+                  <Button 
+                    size="sm" 
+                    variant="outline"
+                    onClick={() => window.open(' https://github.com/prachidave13/Authentify', '_blank')}
+                  >
+                    <ExternalLink className="w-3 h-3 mr-1" />
                     Code
                   </Button>
-                  <Button size="sm" variant="outline">
-                    <ExternalLink className="w-3 h-3 mr-1" />
-                    Demo
-                  </Button>
+                 
                 </div>
               </div>
 
