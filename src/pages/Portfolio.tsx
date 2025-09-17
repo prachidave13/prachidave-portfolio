@@ -461,11 +461,15 @@ const Portfolio = () => {
                 </div>
                 
                 <div className="flex gap-2 pt-2">
-                  
-                  <Button size="sm" variant="outline">
+                   <Button 
+                    size="sm" 
+                    variant="outline"
+                    onClick={() => window.open('https://drive.google.com/file/d/1QJLy-30YOuCb6NDVpDSt-5GDWrOzogSi/view?usp=sharing', '_blank')}
+                  >
                     <ExternalLink className="w-3 h-3 mr-1" />
                     Demo
                   </Button>
+                
                 </div>
               </div>
 
